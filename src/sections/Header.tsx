@@ -48,8 +48,8 @@ const Header = () => {
                 <circle cx="240" cy="25" r="8" fill="#a78bfa" opacity="0.6"/>
                 <circle cx="255" cy="40" r="5" fill="#a78bfa" opacity="0.4"/>
                 <circle cx="230" cy="45" r="4" fill="#a78bfa" opacity="0.5"/>
-                {/* LSV Text */}
-                <text x="40" y="50" fontSize="36" fontWeight="bold" fill="white" fontFamily="Arial, sans-serif">LSV</text>
+                {/* White Oaks Text */}
+                <text x="40" y="50" fontSize="36" fontWeight="bold" fill="white" fontFamily="Arial, sans-serif">White Oaks</text>
                 {/* Exterior Cleaning Services Text */}
                 <text x="100" y="38" fontSize="11" fontWeight="600" fill="white" fontFamily="Arial, sans-serif">EXTERIOR CLEANING</text>
                 <text x="100" y="52" fontSize="11" fontWeight="600" fill="white" fontFamily="Arial, sans-serif">SERVICES</text>
@@ -83,7 +83,7 @@ const Header = () => {
             </a>
             
             <a 
-              href="https://www.facebook.com/LSV-Window-Cleaning-100759624865223/" 
+              href="https://www.facebook.com/whiteoaks-Window-Cleaning-100759624865223/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-8 h-8 rounded-full bg-purple-600 flex items-center justify-center hover:bg-purple-700 transition-colors"

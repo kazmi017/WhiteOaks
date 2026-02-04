@@ -15,7 +15,7 @@ const AboutUs = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6">
             <p>
-              LSV Exterior Cleaning Services are a well established company based in West Yorkshire. With over 25 years experience within the cleaning industry.
+              White Oaks Exterior Cleaning Services are a well established company based in West Yorkshire. With over 25 years experience within the cleaning industry.
             </p>
             
             <p>

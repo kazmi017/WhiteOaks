@@ -105,7 +105,7 @@ const Contact = () => {
                 {/* Social Links */}
                 <div className="flex items-center gap-4 pt-4">
                   <a 
-                    href="https://www.facebook.com/LSV-Window-Cleaning-100759624865223/" 
+                    href="https://www.facebook.com/whiteoaks-Window-Cleaning-100759624865223/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="w-12 h-12 rounded-full bg-purple-600 flex items-center justify-center hover:bg-purple-700 transition-colors"

@@ -58,7 +58,7 @@ const AboutSection = () => {
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img 
                 src="/images/about-image.jpg" 
-                alt="LSV Exterior Cleaning Services - Roof and gutter cleaning"
+                alt="White Oaks Exterior Cleaning Services - Roof and gutter cleaning"
                 className="w-full h-auto object-cover"
               />
             </div>

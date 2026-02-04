@@ -33,11 +33,11 @@
     --sidebar-border: 270 20% 91%;
     --sidebar-ring: 270 60% 45%;
     
-    /* Custom LSV Colors */
-    --lsv-purple: 270 60% 45%;
-    --lsv-purple-light: 270 50% 60%;
-    --lsv-purple-dark: 270 70% 35%;
-    --lsv-lavender: 270 30% 85%;
+    /* Custom White Oaks Colors */
+    --whiteoaks-purple: 270 60% 45%;
+    --whiteoaks-purple-light: 270 50% 60%;
+    --whiteoaks-purple-dark: 270 70% 35%;
+    --whiteoaks-lavender: 270 30% 85%;
   }
 }
 
@@ -53,17 +53,17 @@
 
 /* Custom utility classes */
 @layer utilities {
-  .text-lsv-purple {
-    color: hsl(var(--lsv-purple));
+  .text-whiteoaks-purple {
+    color: hsl(var(--whiteoaks-purple));
   }
-  .bg-lsv-purple {
-    background-color: hsl(var(--lsv-purple));
+  .bg-whiteoaks-purple {
+    background-color: hsl(var(--whiteoaks-purple));
   }
-  .bg-lsv-lavender {
-    background-color: hsl(var(--lsv-lavender));
+  .bg-whiteoaks-lavender {
+    background-color: hsl(var(--whiteoaks-lavender));
   }
-  .border-lsv-purple {
-    border-color: hsl(var(--lsv-purple));
+  .border-whiteoaks-purple {
+    border-color: hsl(var(--whiteoaks-purple));
   }
 }
 
@@ -73,19 +73,19 @@ html {
 }
 
 /* Custom button styles */
-.btn-lsv {
+.btn-whiteoaks {
   @apply px-6 py-2 bg-primary text-primary-foreground rounded-md font-medium transition-all duration-300;
 }
 
-.btn-lsv:hover {
+.btn-whiteoaks:hover {
   @apply opacity-90 shadow-lg;
 }
 
-.btn-lsv-outline {
+.btn-whiteoaks-outline {
   @apply px-6 py-2 border-2 border-primary text-primary rounded-md font-medium transition-all duration-300 bg-transparent;
 }
 
-.btn-lsv-outline:hover {
+.btn-whiteoaks-outline:hover {
   @apply bg-primary text-primary-foreground;
 }
 

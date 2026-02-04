@@ -194,7 +194,7 @@ const ServicesSection = () => {
           {/* Description */}
           <div className="flex items-center">
             <p className="text-gray-700 leading-relaxed">
-              LSV Exterior Cleaning Services have several services available to help maintain the exterior of your property whether it be residential or commercial including bungalows, apartments, houses and conservatories to multi-storey office buildings and shops.
+              White Oaks Exterior Cleaning Services have several services available to help maintain the exterior of your property whether it be residential or commercial including bungalows, apartments, houses and conservatories to multi-storey office buildings and shops.
             </p>
           </div>
         </div>

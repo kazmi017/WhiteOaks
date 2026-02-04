@@ -31,26 +31,7 @@ const Hero = () => {
       <div className="relative z-10 w-full max-w-4xl mx-auto px-4 py-16 text-center">
         {/* Logo in hero */}
         <div className="flex justify-center mb-8">
-          <svg viewBox="0 0 320 100" className="h-24 w-auto">
-            {/* Purple blob background */}
-            <path 
-              d="M30 15 Q70 5 110 20 Q150 35 190 20 Q230 5 270 25 Q290 45 270 65 Q230 85 190 70 Q150 55 110 70 Q70 85 30 65 Q10 45 30 15" 
-              fill="#7c3aed"
-            />
-            {/* White circles decoration */}
-            <circle cx="260" cy="30" r="10" fill="#a78bfa" opacity="0.6"/>
-            <circle cx="280" cy="50" r="7" fill="#a78bfa" opacity="0.4"/>
-            <circle cx="250" cy="55" r="5" fill="#a78bfa" opacity="0.5"/>
-            <circle cx="290" cy="35" r="4" fill="#a78bfa" opacity="0.3"/>
-            {/* LSV Text */}
-            <text x="50" y="62" fontSize="42" fontWeight="bold" fill="white" fontFamily="Arial, sans-serif">White</text>
-            {/* Exterior Cleaning Services Text */}
-            <text x="120" y="48" fontSize="13" fontWeight="600" fill="white" fontFamily="Arial, sans-serif">Oaks</text>
-            <text x="120" y="64" fontSize="13" fontWeight="600" fill="white" fontFamily="Arial, sans-serif">SERVICES</text>
-            {/* Sparkle decorations */}
-            <text x="40" y="32" fontSize="16" fill="white" opacity="0.8">✨</text>
-            <text x="100" y="35" fontSize="14" fill="white" opacity="0.8">✨</text>
-          </svg>
+          White Oaks
         </div>
 
         {/* Title */}

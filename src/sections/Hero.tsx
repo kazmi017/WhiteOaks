@@ -43,9 +43,9 @@ const Hero = () => {
             <circle cx="250" cy="55" r="5" fill="#a78bfa" opacity="0.5"/>
             <circle cx="290" cy="35" r="4" fill="#a78bfa" opacity="0.3"/>
             {/* LSV Text */}
-            <text x="50" y="62" fontSize="42" fontWeight="bold" fill="white" fontFamily="Arial, sans-serif">LSV</text>
+            <text x="50" y="62" fontSize="42" fontWeight="bold" fill="white" fontFamily="Arial, sans-serif">White</text>
             {/* Exterior Cleaning Services Text */}
-            <text x="120" y="48" fontSize="13" fontWeight="600" fill="white" fontFamily="Arial, sans-serif">EXTERIOR CLEANING</text>
+            <text x="120" y="48" fontSize="13" fontWeight="600" fill="white" fontFamily="Arial, sans-serif">Oaks</text>
             <text x="120" y="64" fontSize="13" fontWeight="600" fill="white" fontFamily="Arial, sans-serif">SERVICES</text>
             {/* Sparkle decorations */}
             <text x="40" y="32" fontSize="16" fill="white" opacity="0.8">✨</text>

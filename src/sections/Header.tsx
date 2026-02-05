@@ -73,13 +73,13 @@ const Header = () => {
             </a>
             
             <a 
-              href="mailto:lsvexteriorservices@gmail.com" 
+              href="mailto:whiteoaks@gmail.com" 
               className="flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-purple-700 transition-colors"
             >
               <div className="w-8 h-8 rounded-full bg-purple-600 flex items-center justify-center">
                 <Mail className="w-4 h-4 text-white" />
               </div>
-              <span className="hidden md:inline">lsvexteriorservices@gmail.com</span>
+              <span className="hidden md:inline">whiteoaks@gmail.com</span>
             </a>
             
             <a 

@@ -85,13 +85,13 @@ const AboutUs = () => {
               </a>
               
               <a 
-                href="mailto:lsvexteriorservices@gmail.com" 
+                href="mailto:whiteoaks@gmail.com" 
                 className="flex items-center gap-3 text-lg font-medium text-gray-700 hover:text-purple-700 transition-colors"
               >
                 <div className="w-10 h-10 rounded-full bg-purple-600 flex items-center justify-center">
                   <Mail className="w-5 h-5 text-white" />
                 </div>
-                lsvexteriorservices@gmail.com
+                whiteoaks@gmail.com
               </a>
             </div>
           </div>

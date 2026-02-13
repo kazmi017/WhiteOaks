@@ -29,6 +29,18 @@
 .textStart{
   text-align: start;
 }
+@keyframes wave-slow {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-wave-slow {
+  animation: wave-slow 10s linear infinite;
+}
 
 @keyframes logo-spin {
   from {

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Phone, Mail, Facebook, Menu, X, ChevronDown } from 'lucide-react';
-
+import {WaveBackground} from '../components/WaveBackground';
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
@@ -31,14 +31,17 @@ const Header = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <header className="w-full">
-      {/* Top bar with contact info */}
-      <div className="bg-green-100/50 py-2 px-4 sm:px-6 lg:px-8">
+    <header className="w-full relative">
+      {/* Wave Background - positioned behind content */}
+      <WaveBackground />
+
+      {/* Top bar with contact info - relative to sit above waves */}
+      <div className="relative z-10 py-2 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center mb-2 sm:mb-0">
             <div className="relative">
-              <img src="/images/logo/logo-full-transparent.png"   alt="White Oaks Logo" className="h-24 w-auto" />
+              <img src="/images/logo/logo-full-transparent.png" alt="White Oaks Logo" className="h-24 w-auto" />
             </div>
           </Link>
 
@@ -76,8 +79,8 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Navigation bar */}
-      <nav className="bg-white border-t border-gray-100">
+      {/* Navigation bar - relative to sit above waves */}
+      <nav className="relative z-10 bg-white/90 backdrop-blur-sm border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center">
             {/* Desktop Navigation */}
@@ -103,7 +106,7 @@ const Header = () => {
                   
                   {/* Services Dropdown */}
                   {item.dropdown && servicesDropdownOpen && (
-                    <div className="absolute top-full left-0 w-72 bg-white shadow-lg rounded-b-lg border border-gray-100 z-50 py-2">
+                    <div className="absolute top-full left-0 w-72 bg-white/95 backdrop-blur-sm shadow-lg rounded-b-lg border border-gray-100 z-50 py-2">
                       {item.dropdown.map((service, index) => (
                         <Link
                           key={index}
@@ -132,7 +135,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
-          <div className="md:hidden bg-white border-t border-gray-100">
+          <div className="md:hidden bg-white/95 backdrop-blur-sm border-t border-gray-100 relative z-50">
             <div className="px-4 py-2 space-y-1">
               {navItems.map((item) => (
                 <div key={item.name}>

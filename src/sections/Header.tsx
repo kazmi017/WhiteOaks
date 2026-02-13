@@ -38,25 +38,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center mb-2 sm:mb-0">
             <div className="relative">
-              <svg viewBox="0 0 280 80" className="h-16 w-auto">
-                {/* Purple blob background */}
-                <path 
-                  d="M20 10 Q60 0 100 15 Q140 30 180 15 Q220 0 260 20 Q280 40 260 60 Q220 80 180 65 Q140 50 100 65 Q60 80 20 60 Q0 40 20 10" 
-                  fill="#7c3aed"
-                />
-                {/* White circles decoration */}
-                <circle cx="240" cy="25" r="8" fill="#a78bfa" opacity="0.6"/>
-                <circle cx="255" cy="40" r="5" fill="#a78bfa" opacity="0.4"/>
-                <circle cx="230" cy="45" r="4" fill="#a78bfa" opacity="0.5"/>
-                {/* White Oaks Text */}
-                <text x="40" y="50" fontSize="36" fontWeight="bold" fill="white" fontFamily="Arial, sans-serif">White Oaks</text>
-                {/* Exterior Cleaning Services Text */}
-                <text x="100" y="38" fontSize="11" fontWeight="600" fill="white" fontFamily="Arial, sans-serif">EXTERIOR CLEANING</text>
-                <text x="100" y="52" fontSize="11" fontWeight="600" fill="white" fontFamily="Arial, sans-serif">SERVICES</text>
-                {/* Sparkle decorations */}
-                <text x="30" y="25" fontSize="14" fill="white" opacity="0.8">✨</text>
-                <text x="85" y="28" fontSize="12" fill="white" opacity="0.8">✨</text>
-              </svg>
+              <img src="/images/logo/logo-full-transparent.png"   alt="White Oaks Logo" className="h-24 w-auto" />
             </div>
           </Link>
 

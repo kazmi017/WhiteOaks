@@ -63,7 +63,7 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Left side - Contact Info */}
             <div>
-              <div className="space-y-8">
+              <div className="space-y-8 textStart">
                 {/* Address */}
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-full bgGreen1 flex items-center justify-center flex-shrink-0">

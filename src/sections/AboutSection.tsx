@@ -27,17 +27,17 @@ const AboutSection = () => {
 
             {/* Content */}
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p>
+              {/* WhiteOaks Group LTD provides professional exterior cleaning, landscaping, and property maintenance services for homes and businesses.
+
+We specialise in pressure washing, roof and gutter cleaning, patios and driveways, garden services, and general property maintenance to keep your property looking its best all year round. */}
+              {/* <p>
                 We are a well established cleaning company based in West Yorkshire.
+              </p> */}
+              <p>
+                WhiteOaks Group LTD provides professional exterior cleaning, landscaping, and property maintenance services for homes and businesses.
               </p>
               <p>
-                With over 25 years experience within the cleaning industry.
-              </p>
-              <p>
-                We provide a total exterior cleaning service including roof cleaning, gutter clearing, facia & soffit cleaning, upvc frame cleaning, conservatory roof cleaning, pressure washing & rubbish removal.
-              </p>
-              <p>
-                We also provide professional window cleaning within Yorkshire using the eco friendly hot Water Fed Pole System which leave your windows crystal clear every time.
+                We specialise in pressure washing, roof and gutter cleaning, patios and driveways, garden services, and general property maintenance to keep your property looking its best all year round.
               </p>
               <p>
                 Please call for a free no obligation quotation.

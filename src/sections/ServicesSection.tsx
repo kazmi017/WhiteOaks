@@ -194,7 +194,7 @@ const ServicesSection = () => {
           {/* Description */}
           <div className="flex items-center">
             <p className="text-gray-700 leading-relaxed">
-              White Oaks Exterior Cleaning Services have several services available to help maintain the exterior of your property whether it be residential or commercial including bungalows, apartments, houses and conservatories to multi-storey office buildings and shops.
+              WhiteOaks Group LTD offers a wide range of exterior cleaning, landscaping, and property maintenance services for residential and commercial properties. From pressure washing and roof cleaning to garden maintenance and handyman services, we help keep your property clean, safe, and well maintained all year round. We provide reliable, professional service with free, no-obligation quotations for all jobs. Please call or email us for more information about our services or to schedule a free quote.
             </p>
           </div>
         </div>

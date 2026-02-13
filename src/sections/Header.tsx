@@ -33,7 +33,7 @@ const Header = () => {
   return (
     <header className="w-full">
       {/* Top bar with contact info */}
-      <div className="bg-white py-2 px-4 sm:px-6 lg:px-8">
+      <div className="bg-green-100/50 py-2 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center mb-2 sm:mb-0">
@@ -46,9 +46,9 @@ const Header = () => {
           <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-6">
             <a 
               href="tel:07946764629" 
-              className="flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-purple-700 transition-colors"
+              className="flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-blue-700 transition-colors"
             >
-              <div className="w-8 h-8 rounded-full bg-purple-600 flex items-center justify-center">
+              <div className="w-8 h-8 rounded-full bgGreen1 flex items-center justify-center">
                 <Phone className="w-4 h-4 text-white" />
               </div>
               <span className="hidden sm:inline">07946 764629</span>
@@ -56,9 +56,9 @@ const Header = () => {
             
             <a 
               href="mailto:whiteoaks@gmail.com" 
-              className="flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-purple-700 transition-colors"
+              className="flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-blue-700 transition-colors"
             >
-              <div className="w-8 h-8 rounded-full bg-purple-600 flex items-center justify-center">
+              <div className="w-8 h-8 rounded-full bgGreen1 flex items-center justify-center">
                 <Mail className="w-4 h-4 text-white" />
               </div>
               <span className="hidden md:inline">whiteoaks@gmail.com</span>
@@ -68,7 +68,7 @@ const Header = () => {
               href="https://www.facebook.com/whiteoaks-Window-Cleaning-100759624865223/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="w-8 h-8 rounded-full bg-purple-600 flex items-center justify-center hover:bg-purple-700 transition-colors"
+              className="w-8 h-8 rounded-full bgGreen1 flex items-center justify-center hover:bg-purple-700 transition-colors"
             >
               <Facebook className="w-4 h-4 text-white" />
             </a>
@@ -93,8 +93,8 @@ const Header = () => {
                     to={item.path}
                     className={`flex items-center gap-1 py-4 text-sm font-medium transition-colors ${
                       isActive(item.path) 
-                        ? 'text-purple-700 border-b-2 border-purple-700' 
-                        : 'text-gray-700 hover:text-purple-700'
+                        ? 'text-blue-700 border-b-2 border-blue-700' 
+                        : 'text-gray-700 hover:text-blue-700'
                     }`}
                   >
                     {item.name}
@@ -108,7 +108,7 @@ const Header = () => {
                         <Link
                           key={index}
                           to="/services"
-                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-purple-700 transition-colors"
+                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-blue-700 transition-colors"
                           onClick={() => setServicesDropdownOpen(false)}
                         >
                           {service}
@@ -122,7 +122,7 @@ const Header = () => {
 
             {/* Mobile menu button */}
             <button
-              className="md:hidden p-2 rounded-md text-gray-700 hover:text-purple-700 hover:bg-purple-50 transition-colors"
+              className="md:hidden p-2 rounded-md text-gray-700 hover:text-blue-700 hover:bg-purple-50 transition-colors"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -140,8 +140,8 @@ const Header = () => {
                     to={item.path}
                     className={`block py-3 px-4 text-sm font-medium rounded-md transition-colors ${
                       isActive(item.path) 
-                        ? 'text-purple-700 bg-purple-50' 
-                        : 'text-gray-700 hover:text-purple-700 hover:bg-purple-50'
+                        ? 'text-blue-700 bg-purple-50' 
+                        : 'text-gray-700 hover:text-blue-700 hover:bg-purple-50'
                     }`}
                     onClick={() => setMobileMenuOpen(false)}
                   >
@@ -153,7 +153,7 @@ const Header = () => {
                         <Link
                           key={index}
                           to="/services"
-                          className="block py-2 px-4 text-sm text-gray-600 hover:text-purple-700 transition-colors"
+                          className="block py-2 px-4 text-sm text-gray-600 hover:text-blue-700 transition-colors"
                           onClick={() => setMobileMenuOpen(false)}
                         >
                           {service}

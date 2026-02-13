@@ -2,16 +2,16 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const services = [
-    'Gutter Cleaning',
-    'Gutter Repairs',
-    'Fascia & Soffit Cleaning',
-    'Pressure Washing',
-    'Roof Cleaning',
-    'Soft Washing',
-    'Conservatory Roof Cleaning',
-    'Solar Panel Cleaning',
-    'Commercial Window Cleaning',
-    'Domestic Window Cleaning',
+    'Property maintenance',
+    'Exterior cleaning',
+    'Landscaping',
+    'Handyman work',
+    'Garden matenace',
+    'Pressure washing',
+    'Commercial and domestic',
+    // 'Solar Panel Cleaning',
+    // 'Commercial Window Cleaning',
+    // 'Domestic Window Cleaning',
   ];
 
   return (
@@ -30,9 +30,9 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 w-full max-w-4xl mx-auto px-4 py-16 text-center">
         {/* Logo in hero */}
-        <div className="flex justify-center mb-8">
+        {/* <div className="flex justify-center mb-8">
           White Oaks
-        </div>
+        </div> */}
 
         {/* Title */}
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-8 tracking-wide">
@@ -54,7 +54,7 @@ const Hero = () => {
         {/* CTA Button */}
         <Link
           to="/contact"
-          className="inline-block px-10 py-3 bg-purple-600 text-white font-semibold rounded-md hover:bg-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl"
+          className="inline-block px-10 py-3 bgGreen1 text-white font-semibold rounded-md hover:bg-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl"
         >
           CALL NOW
         </Link>

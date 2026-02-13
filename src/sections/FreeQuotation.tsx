@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const FreeQuotation = () => {
   return (
-    <section className="py-16 bg-purple-200/50">
+    <section className="py-16 bg-blue-200/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Title */}
@@ -12,7 +12,7 @@ const FreeQuotation = () => {
                 {/* Purple blob background */}
                 <path 
                   d="M20 15 Q70 5 120 20 Q170 35 220 20 Q270 5 300 25 Q320 50 300 75 Q270 95 220 80 Q170 65 120 80 Q70 95 20 75 Q0 50 20 15" 
-                  fill="#7c3aed"
+                  fill="#0170C1"
                 />
                 {/* Decorative circles */}
                 <circle cx="280" cy="25" r="10" fill="#a78bfa" opacity="0.6"/>
@@ -35,7 +35,7 @@ const FreeQuotation = () => {
             {/* Contact Us Button */}
             <Link
               to="/contact"
-              className="inline-block px-8 py-2 border-2 border-purple-600 text-purple-700 font-medium rounded-md hover:bg-purple-600 hover:text-white transition-all duration-300"
+              className="inline-block px-8 py-2 border-2 border-blue-600 text-blue-700 font-medium rounded-md hover:bgGreen1 hover:text-white transition-all duration-300"
             >
               CONTACT US
             </Link>

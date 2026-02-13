@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const ServicesSection = () => {
   const services = [
     {
-      name: 'GUTTER CLEANING\n& REPAIRS',
+      name: 'Property maintenance',
       icon: (
         <svg viewBox="0 0 80 60" className="w-16 h-12">
           {/* Gutter icon */}
@@ -17,7 +17,7 @@ const ServicesSection = () => {
       ),
     },
     {
-      name: 'FASCIA & SOFFIT\nCLEANING',
+      name: 'Exterior cleaning',
       icon: (
         <svg viewBox="0 0 80 60" className="w-16 h-12">
           {/* Fascia/Soffit icon */}
@@ -32,7 +32,7 @@ const ServicesSection = () => {
       ),
     },
     {
-      name: 'PRESSURE\nWASHING',
+      name: 'Landscaping',
       icon: (
         <svg viewBox="0 0 80 60" className="w-16 h-12">
           {/* Pressure washer icon */}
@@ -49,7 +49,7 @@ const ServicesSection = () => {
       ),
     },
     {
-      name: 'ROOF\nCLEANING',
+      name: 'Handyman work',
       icon: (
         <svg viewBox="0 0 80 60" className="w-16 h-12">
           {/* Roof icon */}
@@ -64,7 +64,7 @@ const ServicesSection = () => {
       ),
     },
     {
-      name: 'SOFT\nWASHING',
+      name: 'Garden maintenance',
       icon: (
         <svg viewBox="0 0 80 60" className="w-16 h-12">
           {/* Soft washing - spray wand */}
@@ -83,7 +83,7 @@ const ServicesSection = () => {
       ),
     },
     {
-      name: 'CONSERVATORY\nROOF CLEANING',
+      name: 'Pressure washing',
       icon: (
         <svg viewBox="0 0 80 60" className="w-16 h-12">
           {/* Conservatory icon */}
@@ -101,7 +101,7 @@ const ServicesSection = () => {
       ),
     },
     {
-      name: 'SOLAR PANEL\nCLEANING',
+      name: 'Commercial and domestic',
       icon: (
         <svg viewBox="0 0 80 60" className="w-16 h-12">
           {/* Solar panel icon */}
@@ -123,51 +123,51 @@ const ServicesSection = () => {
         </svg>
       ),
     },
-    {
-      name: 'COMMERCIAL\nWINDOW CLEANING',
-      icon: (
-        <svg viewBox="0 0 80 60" className="w-16 h-12">
-          {/* Commercial building icon */}
-          <rect x="15" y="15" width="40" height="45" fill="none" stroke="#7c3aed" strokeWidth="2"/>
-          {/* Windows grid */}
-          <rect x="20" y="20" width="8" height="8" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
-          <rect x="31" y="20" width="8" height="8" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
-          <rect x="42" y="20" width="8" height="8" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
-          <rect x="20" y="31" width="8" height="8" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
-          <rect x="31" y="31" width="8" height="8" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
-          <rect x="42" y="31" width="8" height="8" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
-          <rect x="20" y="42" width="8" height="8" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
-          <rect x="31" y="42" width="8" height="8" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
-          <rect x="42" y="42" width="8" height="8" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
-          {/* Door */}
-          <rect x="28" y="52" width="14" height="8" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
-        </svg>
-      ),
-    },
-    {
-      name: 'RESIDENTIAL\nWINDOW CLEANING',
-      icon: (
-        <svg viewBox="0 0 80 60" className="w-16 h-12">
-          {/* House icon */}
-          <path d="M15 30 L40 10 L65 30" fill="none" stroke="#7c3aed" strokeWidth="2.5"/>
-          <path d="M18 28 L18 55 L62 55 L62 28" fill="none" stroke="#7c3aed" strokeWidth="2"/>
-          {/* Windows */}
-          <rect x="25" y="35" width="12" height="10" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
-          <line x1="31" y1="35" x2="31" y2="45" stroke="#7c3aed" strokeWidth="1"/>
-          <line x1="25" y1="40" x2="37" y2="40" stroke="#7c3aed" strokeWidth="1"/>
-          <rect x="43" y="35" width="12" height="10" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
-          <line x1="49" y1="35" x2="49" y2="45" stroke="#7c3aed" strokeWidth="1"/>
-          <line x1="43" y1="40" x2="55" y2="40" stroke="#7c3aed" strokeWidth="1"/>
-          {/* Door */}
-          <rect x="33" y="45" width="14" height="10" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
-          <circle cx="44" cy="50" r="1" fill="#7c3aed"/>
-        </svg>
-      ),
-    },
+    // {
+    //   name: 'COMMERCIAL\nWINDOW CLEANING',
+    //   icon: (
+    //     <svg viewBox="0 0 80 60" className="w-16 h-12">
+    //       {/* Commercial building icon */}
+    //       <rect x="15" y="15" width="40" height="45" fill="none" stroke="#7c3aed" strokeWidth="2"/>
+    //       {/* Windows grid */}
+    //       <rect x="20" y="20" width="8" height="8" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
+    //       <rect x="31" y="20" width="8" height="8" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
+    //       <rect x="42" y="20" width="8" height="8" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
+    //       <rect x="20" y="31" width="8" height="8" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
+    //       <rect x="31" y="31" width="8" height="8" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
+    //       <rect x="42" y="31" width="8" height="8" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
+    //       <rect x="20" y="42" width="8" height="8" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
+    //       <rect x="31" y="42" width="8" height="8" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
+    //       <rect x="42" y="42" width="8" height="8" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
+    //       {/* Door */}
+    //       <rect x="28" y="52" width="14" height="8" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
+    //     </svg>
+    //   ),
+    // },
+    // {
+    //   name: 'RESIDENTIAL\nWINDOW CLEANING',
+    //   icon: (
+    //     <svg viewBox="0 0 80 60" className="w-16 h-12">
+    //       {/* House icon */}
+    //       <path d="M15 30 L40 10 L65 30" fill="none" stroke="#7c3aed" strokeWidth="2.5"/>
+    //       <path d="M18 28 L18 55 L62 55 L62 28" fill="none" stroke="#7c3aed" strokeWidth="2"/>
+    //       {/* Windows */}
+    //       <rect x="25" y="35" width="12" height="10" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
+    //       <line x1="31" y1="35" x2="31" y2="45" stroke="#7c3aed" strokeWidth="1"/>
+    //       <line x1="25" y1="40" x2="37" y2="40" stroke="#7c3aed" strokeWidth="1"/>
+    //       <rect x="43" y="35" width="12" height="10" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
+    //       <line x1="49" y1="35" x2="49" y2="45" stroke="#7c3aed" strokeWidth="1"/>
+    //       <line x1="43" y1="40" x2="55" y2="40" stroke="#7c3aed" strokeWidth="1"/>
+    //       {/* Door */}
+    //       <rect x="33" y="45" width="14" height="10" fill="none" stroke="#7c3aed" strokeWidth="1.5"/>
+    //       <circle cx="44" cy="50" r="1" fill="#7c3aed"/>
+    //     </svg>
+    //   ),
+    // },
   ];
 
   return (
-    <section className="py-16 bg-purple-100/50">
+    <section className="py-16 bg-blue-100/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
@@ -178,7 +178,7 @@ const ServicesSection = () => {
                 {/* Purple blob background */}
                 <path 
                   d="M20 10 Q60 0 100 15 Q140 30 180 15 Q220 0 260 20 Q280 40 260 60 Q220 80 180 65 Q140 50 100 65 Q60 80 20 60 Q0 40 20 10" 
-                  fill="#7c3aed"
+                  fill="#0170C1"
                 />
                 {/* Decorative circles */}
                 <circle cx="250" cy="20" r="8" fill="#a78bfa" opacity="0.6"/>
@@ -210,7 +210,7 @@ const ServicesSection = () => {
               <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">
                 {service.icon}
               </div>
-              <h3 className="text-sm font-semibold text-purple-700 whitespace-pre-line leading-tight">
+              <h3 className="text-sm font-semibold upper text-blue-700 whitespace-pre-line leading-tight">
                 {service.name}
               </h3>
             </Link>
@@ -221,7 +221,7 @@ const ServicesSection = () => {
         <div className="text-center">
           <Link
             to="/services"
-            className="inline-block px-8 py-2 border-2 border-purple-600 text-purple-700 font-medium rounded-md hover:bg-purple-600 hover:text-white transition-all duration-300"
+            className="inline-block px-8 py-2 border-2 border-blue-600 text-blue-700 font-medium rounded-md hover:bgGreen1 hover:text-white transition-all duration-300"
           >
             READ MORE
           </Link>

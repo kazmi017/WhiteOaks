@@ -50,7 +50,7 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
       {/* Page Header */}
       <div className="bg-purple-50 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl font-bold text-purple-700 mb-4">CONTACT</h1>
+          <h1 className="text-4xl font-bold text-blue-700 mb-4">CONTACT</h1>
           <p className="text-gray-600">
             Get in touch or fill out the form below to request a FREE quote.
           </p>
@@ -66,7 +66,7 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
               <div className="space-y-8">
                 {/* Address */}
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-full bg-purple-600 flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 rounded-full bgGreen1 flex items-center justify-center flex-shrink-0">
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -83,14 +83,14 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
 
                 {/* Phone */}
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-full bg-purple-600 flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 rounded-full bgGreen1 flex items-center justify-center flex-shrink-0">
                     <Phone className="w-6 h-6 text-white" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">PHONE</h3>
                     <a 
                       href="tel:07946764629" 
-                      className="text-gray-600 hover:text-purple-700 transition-colors"
+                      className="text-gray-600 hover:text-blue-700 transition-colors"
                     >
                       07887 485348
                     </a>
@@ -99,14 +99,14 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
 
                 {/* Email */}
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-full bg-purple-600 flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 rounded-full bgGreen1 flex items-center justify-center flex-shrink-0">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">EMAIL</h3>
                     <a 
                       href="mailto:whiteoaks@gmail.com" 
-                      className="text-gray-600 hover:text-purple-700 transition-colors"
+                      className="text-gray-600 hover:text-blue-700 transition-colors"
                     >
                       whiteoaks@gmail.com
                     </a>
@@ -119,7 +119,7 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
                     href="https://www.facebook.com/whiteoaks-Window-Cleaning-100759624865223/" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="w-12 h-12 rounded-full bg-purple-600 flex items-center justify-center hover:bg-purple-700 transition-colors"
+                    className="w-12 h-12 rounded-full bgGreen1 flex items-center justify-center hover:bg-purple-700 transition-colors"
                   >
                     <Facebook className="w-6 h-6 text-white" />
                   </a>
@@ -138,7 +138,7 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
             {/* Right side - Contact Form */}
             <div>
               <div className="bg-purple-50 rounded-xl p-8">
-                <h2 className="text-2xl font-bold text-purple-700 mb-6">Get in Touch</h2>
+                <h2 className="text-2xl font-bold text-blue-700 mb-6">Get in Touch</h2>
                 
                 {submitted ? (
                   <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded">
@@ -221,7 +221,7 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
 
                     <button
                       type="submit"
-                      className="w-full px-6 py-3 bg-purple-600 text-white font-semibold rounded-md hover:bg-purple-700 transition-all duration-300"
+                      className="w-full px-6 py-3 bgGreen1 text-white font-semibold rounded-md hover:bg-purple-700 transition-all duration-300"
                     >
                       Submit
                     </button>

@@ -13,7 +13,7 @@ const AboutSection = () => {
                 {/* Purple blob background */}
                 <path 
                   d="M20 10 Q60 0 100 15 Q140 30 180 15 Q220 0 260 20 Q280 40 260 60 Q220 80 180 65 Q140 50 100 65 Q60 80 20 60 Q0 40 20 10" 
-                  fill="#7c3aed"
+                  fill="#0170C1"
                 />
                 {/* Decorative circles */}
                 <circle cx="250" cy="20" r="8" fill="#a78bfa" opacity="0.6"/>
@@ -47,7 +47,7 @@ const AboutSection = () => {
             {/* Read More Button */}
             <Link
               to="/about-us"
-              className="inline-block mt-8 px-8 py-2 border-2 border-purple-600 text-purple-700 font-medium rounded-md hover:bg-purple-600 hover:text-white transition-all duration-300"
+              className="inline-block mt-8 px-8 py-2 border-2 border-blue-600 text-blue-700 font-medium rounded-md hover:bgGreen1 hover:text-white transition-all duration-300"
             >
               READ MORE
             </Link>

@@ -14,61 +14,52 @@ const AboutUs = () => {
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6">
-            <p>
-              White Oaks Exterior Cleaning Services are a well established company based in West Yorkshire. With over 25 years experience within the cleaning industry.
-            </p>
-            
-            <p>
-              We specialise in professional cleaning for residential and commercial properties, ensuring that exterior surfaces remain spotless and well-maintained:
-            </p>
+  <p>
+    White Oaks Property Services is a trusted West Yorkshire based company delivering high-quality property maintenance and exterior cleaning solutions for both residential and commercial clients.
+  </p>
+  
+  <p>
+    We provide reliable, professional services designed to enhance, protect, and maintain your property all year round:
+  </p>
 
-            <div className="space-y-4 my-8">
-              <div className="bg-purple-50 p-4 rounded-lg">
-                <h3 className="font-semibold text-blue-700 mb-2">Gutter Cleaning</h3>
-                <p className="text-gray-600">Removing debris and buildup to prevent water damage and improve drainage.</p>
-              </div>
+  <div className="space-y-4 my-8">
+    <div className="bg-purple-50 p-4 rounded-lg">
+      <h3 className="font-semibold text-blue-700 mb-2">Property Maintenance</h3>
+      <p className="text-gray-600">Comprehensive property upkeep, repairs, and preventative maintenance.</p>
+    </div>
 
-              <div className="bg-purple-50 p-4 rounded-lg">
-                <h3 className="font-semibold text-blue-700 mb-2">Gutter repairs</h3>
-                <p className="text-gray-600">Inspecting, diagnosing, and fixing gutter issues to ensure proper water drainage and prevent damage to homes and buildings.</p>
-              </div>
+    <div className="bg-purple-50 p-4 rounded-lg">
+      <h3 className="font-semibold text-blue-700 mb-2">Exterior Cleaning</h3>
+      <p className="text-gray-600">Professional exterior cleaning to restore appearance and protect surfaces.</p>
+    </div>
 
-              <div className="bg-purple-50 p-4 rounded-lg">
-                <h3 className="font-semibold text-blue-700 mb-2">Fascia and Soffit cleaning</h3>
-                <p className="text-gray-600">Maintaining the exterior elements of a building's roofline to keep it looking clean, professional, and free from dirt, grime, and mold buildup.</p>
-              </div>
+    <div className="bg-purple-50 p-4 rounded-lg">
+      <h3 className="font-semibold text-blue-700 mb-2">Landscaping</h3>
+      <p className="text-gray-600">Complete landscaping solutions to transform and maintain outdoor spaces.</p>
+    </div>
 
-              <div className="bg-purple-50 p-4 rounded-lg">
-                <h3 className="font-semibold text-blue-700 mb-2">Pressure Washing</h3>
-                <p className="text-gray-600">Cleaning driveways, sidewalks, patios, and other hard surfaces to remove dirt, grime, and stains.</p>
-              </div>
+    <div className="bg-purple-50 p-4 rounded-lg">
+      <h3 className="font-semibold text-blue-700 mb-2">Handyman Services</h3>
+      <p className="text-gray-600">Efficient, reliable solutions for repairs, installations, and improvements.</p>
+    </div>
 
-              <div className="bg-purple-50 p-4 rounded-lg">
-                <h3 className="font-semibold text-blue-700 mb-2">Roof cleaning</h3>
-                <p className="text-gray-600">Restoring and maintaining the cleanliness of roofs, ensuring they look great and last longer. Removing moss, algae, dirt, and other buildup that can damage shingles and reduce a roof's lifespan. Using professional cleaning techniques, I help homeowners and businesses protect their investment while improving the overall appearance of their property. It's a detail-oriented job that requires care, expertise, and a commitment to delivering top-quality results.</p>
-              </div>
+    <div className="bg-purple-50 p-4 rounded-lg">
+      <h3 className="font-semibold text-blue-700 mb-2">Garden Maintenance</h3>
+      <p className="text-gray-600">Ongoing garden care to keep your outdoor areas neat and healthy.</p>
+    </div>
 
-              <div className="bg-purple-50 p-4 rounded-lg">
-                <h3 className="font-semibold text-blue-700 mb-2">Soft Washing</h3>
-                <p className="text-gray-600">A gentler approach using specialised solutions for delicate surfaces like roofs, siding, and fences.</p>
-              </div>
+    <div className="bg-purple-50 p-4 rounded-lg">
+      <h3 className="font-semibold text-blue-700 mb-2">Pressure Washing</h3>
+      <p className="text-gray-600">Deep cleaning of driveways, patios, paths, and hard surfaces.</p>
+    </div>
 
-              <div className="bg-purple-50 p-4 rounded-lg">
-                <h3 className="font-semibold text-blue-700 mb-2">Conservatory roof cleaning</h3>
-                <p className="text-gray-600">A specialised service that helps maintain the clarity, cleanliness, and longevity of conservatory roofs.</p>
-              </div>
+    <div className="bg-purple-50 p-4 rounded-lg">
+      <h3 className="font-semibold text-blue-700 mb-2">Commercial & Domestic</h3>
+      <p className="text-gray-600">Flexible services tailored to businesses, landlords, and homeowners.</p>
+    </div>
+  </div>
+</div>
 
-              <div className="bg-purple-50 p-4 rounded-lg">
-                <h3 className="font-semibold text-blue-700 mb-2">Solar panel cleaning</h3>
-                <p className="text-gray-600">Ensuring solar panels are free from dirt, dust, and debris that can reduce their energy output. Using the right techniques and equipment, carefully removing buildup without damaging delicate surfaces, helping customers get the most from their solar power systems.</p>
-              </div>
-
-              <div className="bg-purple-50 p-4 rounded-lg">
-                <h3 className="font-semibold text-blue-700 mb-2">Window Cleaning</h3>
-                <p className="text-gray-600">Washing exterior windows for a streak-free finish.</p>
-              </div>
-            </div>
-          </div>
 
           {/* Contact CTA */}
           <div className="mt-12 text-center bg-purple-100 rounded-xl p-8">

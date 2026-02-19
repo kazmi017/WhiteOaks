@@ -14,16 +14,15 @@ const Header = () => {
       name: 'OUR SERVICES', 
       path: '/services',
       dropdown: [
-        'Gutter Cleaning & Repair',
-        'Fascia & Soffit Cleaning',
-        'Pressure Washing',
-        'Roof Cleaning',
-        'Soft Washing',
-        'Conservatory Cleaning',
-        'Solar Panel Cleaning',
-        'Commercial Window Cleaning',
-        'Residential Window Cleaning'
-      ]
+  'Property Maintenance',
+  'Exterior Cleaning',
+  'Landscaping',
+  'Handyman Services',
+  'Garden Maintenance',
+  'Pressure Washing',
+  'Commercial & Domestic',
+]
+
     },
     { name: 'CONTACT', path: '/contact' },
   ];

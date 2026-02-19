@@ -2,52 +2,43 @@ import { Link } from 'react-router-dom';
 
 const Services = () => {
   const services = [
-    {
-      title: 'GUTTER CLEANING & REPAIRS',
-      description: 'We take care in removing debris and buildup to prevent water damage and improve drainage. Inspecting, diagnosing, and fixing gutter issues to ensure proper water drainage and prevent damage to homes and buildings.',
-      link: '/services',
-    },
-    {
-      title: 'FASCIA & SOFFIT CLEANING',
-      description: 'We have the technology to clean those hard to reach areas including fascias and soffits. We also clean alternative plastics.',
-      link: '/services',
-    },
-    {
-      title: 'PRESSURE WASHING',
-      description: 'Pressure washing is an additional service alongside window cleaning. If you are looking to brighten up those stubborn paved or concrete areas then we can help.',
-      link: '/services',
-    },
-    {
-      title: 'ROOF CLEANING',
-      description: "Restoring and maintaining the cleanliness of roofs, by removing moss, algae, dirt, and other buildup that can damage shingles and reduce a roof's lifespan.",
-      link: '/services',
-    },
-    {
-      title: 'SOFT WASHING',
-      description: 'A gentler approach using specialised solutions for delicate surfaces like roofs, siding, and fences.',
-      link: '/services',
-    },
-    {
-      title: 'CONSERVATORY CLEANING',
-      description: 'We cater for all sized conservatories and outbuildings. We clean all the external windows and plastics.',
-      link: '/services',
-    },
-    {
-      title: 'SOLAR PANEL CLEANING',
-      description: 'Ensuring solar panels are free from dirt, dust, and debris that can reduce their energy output. Using the right techniques and equipment, carefully removing buildup without damaging delicate surfaces.',
-      link: '/services',
-    },
-    {
-      title: 'COMMERCIAL WINDOW CLEANING',
-      description: 'Professional window cleaning services for commercial properties, offices, shops, and multi-storey buildings.',
-      link: '/services',
-    },
-    {
-      title: 'RESIDENTIAL WINDOW CLEANING',
-      description: 'Domestic window cleaning using the eco friendly hot Water Fed Pole System which leaves your windows crystal clear every time.',
-      link: '/services',
-    },
-  ];
+  {
+    title: 'PROPERTY MAINTENANCE',
+    description: 'Comprehensive property upkeep, repairs, and preventative maintenance for homes and businesses.',
+    link: '/services',
+  },
+  {
+    title: 'EXTERIOR CLEANING',
+    description: 'Professional exterior cleaning to restore appearance, protect surfaces, and extend lifespan.',
+    link: '/services',
+  },
+  {
+    title: 'LANDSCAPING',
+    description: 'Complete landscaping solutions to enhance, transform, and maintain outdoor spaces.',
+    link: '/services',
+  },
+  {
+    title: 'HANDYMAN SERVICES',
+    description: 'Reliable repairs, installations, and improvements carried out efficiently and professionally.',
+    link: '/services',
+  },
+  {
+    title: 'GARDEN MAINTENANCE',
+    description: 'Regular garden care to keep lawns, plants, and outdoor areas neat and healthy.',
+    link: '/services',
+  },
+  {
+    title: 'PRESSURE WASHING',
+    description: 'Deep cleaning of patios, driveways, paths, and hard surfaces for a fresh finish.',
+    link: '/services',
+  },
+  {
+    title: 'COMMERCIAL & DOMESTIC',
+    description: 'Tailored services for homeowners, landlords, offices, and commercial premises.',
+    link: '/services',
+  },
+];
+
 
   return (
     <main className="min-h-screen bg-white">

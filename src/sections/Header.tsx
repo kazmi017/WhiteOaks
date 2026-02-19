@@ -11,7 +11,7 @@ const Header = () => {
     { name: 'HOME', path: '/' },
     { name: 'ABOUT US', path: '/about-us' },
     { 
-      name: 'SERVICES', 
+      name: 'OUR SERVICES', 
       path: '/services',
       dropdown: [
         'Gutter Cleaning & Repair',
@@ -48,23 +48,23 @@ const Header = () => {
           {/* Contact Info */}
           <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-6">
             <a 
-              href="tel:07946764629" 
+              href="tel:07424455268" 
               className="flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-blue-700 transition-colors"
             >
               <div className="w-8 h-8 rounded-full bgGreen1 flex items-center justify-center">
                 <Phone className="w-4 h-4 text-white" />
               </div>
-              <span className="hidden sm:inline">07946 764629</span>
+              <span className="hidden sm:inline">07424 455268</span>
             </a>
             
             <a 
-              href="mailto:whiteoaks@gmail.com" 
+              href="mailto:whiteoak@email.com" 
               className="flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-blue-700 transition-colors"
             >
               <div className="w-8 h-8 rounded-full bgGreen1 flex items-center justify-center">
                 <Mail className="w-4 h-4 text-white" />
               </div>
-              <span className="hidden md:inline">whiteoaks@gmail.com</span>
+              <span className="hidden md:inline">whiteoak@email.com</span>
             </a>
             
             <a 

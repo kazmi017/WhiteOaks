@@ -35,16 +35,16 @@ const Hero = () => {
         </div> */}
 
         {/* Title */}
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-8 tracking-wide">
-          EXTERIOR CLEANING SERVICES
-        </h1>
+        {/* <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-8 tracking-wide">
+          White Oaks
+        </h1> */}
 
         {/* Services List */}
         <ul className="space-y-2 mb-10">
           {services.map((service, index) => (
             <li 
               key={index} 
-              className="text-white text-lg sm:text-xl font-medium tracking-wide"
+              className="text-white text-2xl font-bold font-medium tracking-wide"
             >
               {service}
             </li>

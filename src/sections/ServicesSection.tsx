@@ -178,7 +178,7 @@ const ServicesSection = () => {
                 {/* Purple blob background */}
                 <path 
                   d="M20 10 Q60 0 100 15 Q140 30 180 15 Q220 0 260 20 Q280 40 260 60 Q220 80 180 65 Q140 50 100 65 Q60 80 20 60 Q0 40 20 10" 
-                  fill="#0170C1"
+                  fill="#14692E"
                 />
                 {/* Decorative circles */}
                 <circle cx="250" cy="20" r="8" fill="#a78bfa" opacity="0.6"/>

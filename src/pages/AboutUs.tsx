@@ -75,23 +75,23 @@ const AboutUs = () => {
             <h2 className="text-2xl font-bold text-blue-700 mb-6">CONTACT US</h2>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
               <a 
-                href="tel:07946764629" 
+                href="tel:07424455268" 
                 className="flex items-center gap-3 text-lg font-medium text-gray-700 hover:text-blue-700 transition-colors"
               >
                 <div className="w-10 h-10 rounded-full bgGreen1 flex items-center justify-center">
                   <Phone className="w-5 h-5 text-white" />
                 </div>
-                07946 764629
+                07424 455268
               </a>
               
               <a 
-                href="mailto:whiteoaks@gmail.com" 
+                href="mailto:whiteoak@email.com" 
                 className="flex items-center gap-3 text-lg font-medium text-gray-700 hover:text-blue-700 transition-colors"
               >
                 <div className="w-10 h-10 rounded-full bgGreen1 flex items-center justify-center">
                   <Mail className="w-5 h-5 text-white" />
                 </div>
-                whiteoaks@gmail.com
+                whiteoak@email.com
               </a>
             </div>
           </div>

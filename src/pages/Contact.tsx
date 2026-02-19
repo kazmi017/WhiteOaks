@@ -72,10 +72,10 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">ADDRESS</h3>
                     <p className="text-gray-600">
-                      26 Harbour Crescent<br />
-                      Wibsey<br />
-                      Bradford<br />
-                      BD6 3QG<br />
+                      267a Roundhay Road<br />
+                      Harehills<br />
+                      Leeds<br />
+                      LS8 4HS<br />
                       UK
                     </p>
                   </div>
@@ -89,10 +89,10 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">PHONE</h3>
                     <a 
-                      href="tel:07946764629" 
+                      href="tel:07424455268" 
                       className="text-gray-600 hover:text-blue-700 transition-colors"
                     >
-                      07887 485348
+                      07424 455268
                     </a>
                   </div>
                 </div>
@@ -105,10 +105,10 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">EMAIL</h3>
                     <a 
-                      href="mailto:whiteoaks@gmail.com" 
+                      href="mailto:whiteoak@email.com" 
                       className="text-gray-600 hover:text-blue-700 transition-colors"
                     >
-                      whiteoaks@gmail.com
+                      whiteoak@email.com
                     </a>
                   </div>
                 </div>
@@ -124,7 +124,7 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
                     <Facebook className="w-6 h-6 text-white" />
                   </a>
                   <a 
-                    href="https://wa.me/447887485348?text=Hi,%20I'm%20interested%20in%20your%20cleaning%20services" 
+                    href="https://wa.me/447424455268?text=Hi,%20I'm%20interested%20in%20your%20cleaning%20services" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="w-12 h-12 rounded-full bg-green-500 flex items-center justify-center hover:bg-green-600 transition-colors"

@@ -12,7 +12,7 @@ const FreeQuotation = () => {
                 {/* Purple blob background */}
                 <path 
                   d="M20 15 Q70 5 120 20 Q170 35 220 20 Q270 5 300 25 Q320 50 300 75 Q270 95 220 80 Q170 65 120 80 Q70 95 20 75 Q0 50 20 15" 
-                  fill="#0170C1"
+                  fill="#14692E"
                 />
                 {/* Decorative circles */}
                 <circle cx="280" cy="25" r="10" fill="#a78bfa" opacity="0.6"/>
